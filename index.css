@@ -1,0 +1,35 @@
+:root {
+  body {
+    margin: 2.5rem 2rem;
+    font-size: 120%;
+    min-height: calc(100vh - 5rem);
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  h1,
+  a,
+  .tagline {
+    color: #deb308;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .tagline {
+    font-style: italic;
+  }
+}
